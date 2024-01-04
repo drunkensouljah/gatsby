@@ -1,11 +1,12 @@
 repo_name: drunkensouljah/gatsby
 report_id: b65b4a5d81acd5244212052aef581675
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T19:08:45+00:00'
+timestamp: '2024-01-04T15:13:09+00:00'
 requested_by: fk
 provider: github
 branch: master
-detected_tools_count: 306
+detected_tools_count: 309
 tools:
 - name: Asciidoctor
   description: An open source, pure Ruby processor for converting AsciiDoc documents
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2924/gvQpykZd_400x400.jpg
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-asciidoc/package.json
   detection_source: examples/using-asciidoc/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-12-31 11:32:36.000000000 Z
@@ -27,6 +29,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby
   detection_source: Repo Metadata
 - name: CoffeeScript
   description: A little language that compiles into JavaScript
@@ -38,7 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1178/slQydAMv.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-plugin-coffeescript/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -50,6 +53,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -60,6 +64,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/drunkensouljah/gatsby
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -70,6 +75,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2016-11-12 21:52:06.000000000 Z
@@ -82,6 +88,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/gatsby-transformer-asciidoc/package.json
   detection_source: packages/gatsby-transformer-asciidoc/package.json
   last_updated_by: Daniel
   last_updated_on: 2018-12-31 10:19:28.000000000 Z
@@ -95,7 +102,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: examples/using-typescript/package.json
   last_updated_by: Jorge Galat
   last_updated_on: 2019-04-22 18:53:31.000000000 Z
@@ -109,7 +116,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/gatsby-cli/package.json
+  detection_source: packages/gatsby-cli/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-08-02 21:59:47.000000000 Z
 - name: Autoprefixer
@@ -120,6 +128,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/gatsby/package.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Robert Cooper
   last_updated_on: 2019-06-04 18:55:40.000000000 Z
@@ -133,7 +142,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/5204/bulma-logo.png
-  detection_source_url: examples/using-javascript-transforms/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-javascript-transforms/package.json
   detection_source: examples/using-javascript-transforms/package.json
   last_updated_by: Jacob Bolda
   last_updated_on: 2017-07-18 19:16:42.000000000 Z
@@ -148,7 +157,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Rick Brown
   last_updated_on: 2019-04-12 14:45:09.000000000 Z
@@ -161,6 +170,7 @@ tools:
   category: Libraries
   sub_category: Charting Libraries
   image_url: https://img.stackshare.io/service/1435/Vx4_Psj1.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Sam Bhagwat
   last_updated_on: 2018-10-11 00:54:52.000000000 Z
@@ -174,7 +184,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/5302/17475736.png
-  detection_source_url: examples/using-mobx/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-mobx/package.json
   detection_source: examples/using-mobx/package.json
   last_updated_by: jonniebigodes
   last_updated_on: 2018-11-01 15:25:57.000000000 Z
@@ -188,8 +198,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source_url: Dockerfile
-  detection_source: packages/gatsby-telemetry/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/Dockerfile
+  detection_source: ".github/actions/gatsby-site-showcase-validator/Dockerfile"
   last_updated_by: Benjamin Lannon
   last_updated_on: 2019-05-29 16:19:22.000000000 Z
 - name: Normalize.css
@@ -200,6 +210,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/6361/default_8c8faac34fdcb5b696503f5166b5232ad0adcf6e.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-javascript-transforms/package.json
   detection_source: examples/using-javascript-transforms/package.json
   last_updated_by: Jacob Bolda
   last_updated_on: 2017-07-18 19:16:42.000000000 Z
@@ -213,8 +224,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: benchmarks/create-pages/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-02-12 14:16:41.000000000 Z
 - name: React Hot Loader
@@ -227,7 +238,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-21 05:10:19.000000000 Z
@@ -240,8 +251,8 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/4074/13142323.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-multiple-providers/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-08-16 21:51:25.000000000 Z
 - name: Sass
@@ -253,7 +264,8 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
-  detection_source: examples/using-sass/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-css-modules/package.json
+  detection_source: examples/using-css-modules/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-06-30 17:43:52.000000000 Z
 - name: css-loader
@@ -265,7 +277,8 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/gatsby-graphiql-explorer/package.json
+  detection_source: packages/gatsby-graphiql-explorer/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-27 15:38:05.000000000 Z
 - name: redux-thunk
@@ -277,6 +290,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/gatsby/package.json
   detection_source: packages/gatsby/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-05-14 19:40:31.000000000 Z
@@ -291,8 +305,8 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/6749/styled-components.png
-  detection_source_url: examples/using-multiple-providers/package.json
-  detection_source: examples/using-styled-components/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-multiple-providers/package.json
+  detection_source: examples/using-multiple-providers/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
 - name: GraphQL
@@ -303,7 +317,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Query Languages
   image_url: https://img.stackshare.io/service/3820/12972006.png
-  detection_source: packages/graphql-skip-limit/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-gatsby-source-graphql/package.json
+  detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: Ricky de Laveaga
   last_updated_on: 2018-11-16 13:04:07.000000000 Z
 - name: GraphQL Playground
@@ -316,6 +331,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/9999/20a2b8d1-99a7-499c-bb60-bba9ea75f23c.jpeg
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/gatsby/package.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2019-05-31 23:24:33.000000000 Z
@@ -329,7 +345,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/7879/GraphiQL.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-graphiql-explorer/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-31 23:16:45.000000000 Z
@@ -342,6 +358,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/gatsby-transformer-documentationjs/package.json
   detection_source: packages/gatsby-transformer-documentationjs/package.json
   last_updated_by: Devon Govett
   last_updated_on: 2019-05-01 19:20:42.000000000 Z
@@ -353,7 +370,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
-  detection_source: packages/gatsby-source-mongodb/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-mongodb/package.json
+  detection_source: examples/using-mongodb/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
 - name: Socket.IO
@@ -365,7 +383,7 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Felix Jung
   last_updated_on: 2017-07-13 22:34:04.000000000 Z
@@ -377,6 +395,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/azure-pipelines.yml
   detection_source: azure-pipelines.yml
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-10-05 15:15:34.000000000 Z
@@ -390,8 +409,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/plugins/gatsby-transformer-gatsby-api-calls/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: ".babelrc.js"
   last_updated_by: Dustin Schau
   last_updated_on: 2018-10-29 15:06:57.000000000 Z
 - name: CircleCI
@@ -402,6 +421,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/.circleci/config.yml
   detection_source: ".circleci/config.yml"
   last_updated_by: Dustin Schau
   last_updated_on: 2019-01-04 17:31:34.000000000 Z
@@ -416,8 +436,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
-  detection_source_url: e2e-tests/development-runtime/package.json
-  detection_source: examples/gatsbygram/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/e2e-tests/development-runtime/package.json
+  detection_source: e2e-tests/development-runtime/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-05-15 14:58:27.000000000 Z
 - name: Docker
@@ -429,6 +449,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby
   detection_source: Repo Metadata
 - name: Dotenv
   description: Loads environment variables from .env for Nodejs projects
@@ -439,7 +460,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-shopify/package.json
+  detection_source: examples/using-shopify/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-02-18 16:08:18.000000000 Z
 - name: ESLint
@@ -451,7 +473,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: themes/gatsby-theme-blog/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-gatsby-source-graphql/package.json
+  detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: Mikhail Novikov
   last_updated_on: 2018-08-03 14:49:08.000000000 Z
 - name: Git
@@ -462,6 +485,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby
   detection_source: Repo Metadata
 - name: Jest
   description: Painless JavaScript Unit Testing
@@ -473,8 +497,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: ".github/actions/high-priority-prs/package.json"
   last_updated_by: Mike Allanson
   last_updated_on: 2019-05-04 14:52:43.000000000 Z
 - name: NuGet
@@ -485,7 +509,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/gatsby-cli/package.json
+  detection_source: packages/gatsby-cli/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-08-02 21:59:47.000000000 Z
 - name: OpenTracing
@@ -499,8 +524,8 @@ tools:
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/6941/ktuguoGc_400x400.jpg
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-cli/package.json
   last_updated_by: Maxime Quandalle
   last_updated_on: 2018-07-13 16:40:40.000000000 Z
 - name: Prettier
@@ -513,8 +538,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: themes/gatsby-theme-blog/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: e2e-tests/development-runtime/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2018-12-20 21:10:25.000000000 Z
 - name: PyPI
@@ -525,6 +550,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2016-11-12 21:52:06.000000000 Z
@@ -536,6 +562,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/gatsby-transformer-asciidoc/package.json
   detection_source: packages/gatsby-transformer-asciidoc/package.json
   last_updated_by: Daniel
   last_updated_on: 2018-12-31 10:19:28.000000000 Z
@@ -549,7 +576,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
-  detection_source_url: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Florian Kissling
   last_updated_on: 2019-06-15 00:50:06.000000000 Z
@@ -561,6 +588,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-typescript/package.json
   detection_source: examples/using-typescript/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-06-30 23:57:01.000000000 Z
@@ -574,8 +602,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/src/utils/webpack.config.js
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-graphiql-explorer/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-31 23:16:45.000000000 Z
 - name: Yarn
@@ -586,7 +614,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/.yarnrc
+  detection_source: ".yarnrc"
   last_updated_by: Jason Quense
   last_updated_on: 2017-08-30 22:50:57.000000000 Z
 - name: Zipkin
@@ -598,6 +627,7 @@ tools:
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/2494/8leuukuhknbc8fj0eg42_400x400.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: greg lobinski
   last_updated_on: 2018-10-25 17:19:01.000000000 Z
@@ -609,7 +639,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source: packages/gatsby-graphiql-explorer/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/package.json
+  detection_source: package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2015-05-21 22:45:12.000000000 Z
 - name: react-testing-library
@@ -622,8 +653,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/9787/49996085.png
-  detection_source_url: yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: examples/using-jest/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-01-28 14:34:20.000000000 Z
 - name: Apollo
@@ -635,6 +666,7 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/5508/CyUH653y.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/gatsby-source-graphql/package.json
   detection_source: packages/gatsby-source-graphql/package.json
   last_updated_by: Mike Allanson
   last_updated_on: 2019-03-08 14:39:44.000000000 Z
@@ -647,6 +679,7 @@ tools:
   category: Application Hosting
   sub_category: Serverless / Task Processing
   image_url: https://img.stackshare.io/service/5095/serverless-logo.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/functions/onGithubWebhook/serverless.yml
   detection_source: infrastructure/functions/onGithubWebhook/serverless.yml
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-11-15 01:41:33.000000000 Z
@@ -659,7 +692,7 @@ tools:
   category: Application Utilities
   sub_category: Search as a Service
   image_url: https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-source-npm-package-search/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -671,7 +704,8 @@ tools:
   category: Analytics
   sub_category: General Analytics
   image_url: https://img.stackshare.io/service/64/cU74ahCn_400x400.jpg
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/gatsbygram/package.json
+  detection_source: examples/gatsbygram/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
 - name: Here Maps
@@ -683,6 +717,7 @@ tools:
   category: Application Utilities
   sub_category: Mapping APIs
   image_url: https://img.stackshare.io/service/5500/FyXhxpvJ_400x400.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/.github/actions/high-priority-prs/Dockerfile
   detection_source: ".github/actions/high-priority-prs/Dockerfile"
   last_updated_by: Mike Allanson
   last_updated_on: 2019-05-04 14:52:43.000000000 Z
@@ -695,6 +730,7 @@ tools:
   category: Application Utilities
   sub_category: Static Web Hosting
   image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/netlify.toml
   detection_source: netlify.toml
   last_updated_by: Jason Quense
   last_updated_on: 2017-10-31 23:52:40.000000000 Z
@@ -707,6 +743,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/Dockerfile
   detection_source: Dockerfile
   last_updated_by: Mike Allanson
   last_updated_on: 2018-03-05 23:30:46.000000000 Z
@@ -721,8 +758,8 @@ tools:
   category: Application Utilities
   sub_category: Static Site Generators
   image_url: https://img.stackshare.io/service/5472/default_189db484e0770a6101c6a70f0ef0172bc0f8de37.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: benchmarks/create-pages/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-02-12 14:16:41.000000000 Z
 - name: Lerna
@@ -735,7 +772,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Mike Allanson
   last_updated_on: 2019-01-24 19:29:46.000000000 Z
@@ -748,8 +785,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: infrastructure/yarn.lock
-  detection_source: themes/gatsby-theme-blog/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/yarn.lock
+  detection_source: ".github/actions/high-priority-prs/package.json"
   last_updated_by: Mike Allanson
   last_updated_on: 2019-06-06 16:00:49.000000000 Z
 - name: Moment.js
@@ -763,8 +800,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-javascript-transforms/package.json
   last_updated_by: Jacob Bolda
   last_updated_on: 2017-07-18 19:16:42.000000000 Z
 - name: Prism
@@ -777,8 +814,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-emotion-prismjs/package.json
   last_updated_by: Chuck
   last_updated_on: 2019-04-18 17:23:15.000000000 Z
 - name: Shell
@@ -790,6 +827,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby
   detection_source: Repo Metadata
 - name: axios
   description: Promise based HTTP client for the browser and node.js
@@ -801,8 +839,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: examples/using-gatsby-without-graphql/package.json
   last_updated_by: Phumrapee Limpianchop
   last_updated_on: 2019-05-31 16:26:21.000000000 Z
 - name: chalk
@@ -811,7 +849,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/.github/actions/gatsby-site-showcase-validator/package.json
+  detection_source: ".github/actions/gatsby-site-showcase-validator/package.json"
   last_updated_by: Benjamin Lannon
   last_updated_on: 2019-05-29 16:19:22.000000000 Z
 - name: date-fns
@@ -823,6 +862,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/.github/actions/high-priority-prs/package.json
   detection_source: ".github/actions/high-priority-prs/package.json"
   last_updated_by: Mike Allanson
   last_updated_on: 2019-06-06 16:00:49.000000000 Z
@@ -831,6 +871,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/package.json
   detection_source: package.json
   last_updated_by: Lipis
   last_updated_on: 2019-05-28 07:54:40.000000000 Z
@@ -839,6 +880,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/package.json
   detection_source: package.json
   last_updated_by: Lipis
   last_updated_on: 2019-05-28 07:54:40.000000000 Z
@@ -852,8 +894,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
-  detection_source: packages/graphql-skip-limit/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: packages/babel-plugin-remove-graphql-queries/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-04-02 16:55:42.000000000 Z
 - name: "@babel/code-frame"
@@ -866,8 +908,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18114/image.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-cli/package.json
   last_updated_by: Jarmo Isotalo
   last_updated_on: 2019-03-26 13:20:52.000000000 Z
 - name: "@babel/core"
@@ -880,8 +922,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/graphql-skip-limit/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-emotion-prismjs/package.json
   last_updated_by: Chuck
   last_updated_on: 2019-04-18 17:23:15.000000000 Z
 - name: "@babel/node"
@@ -894,7 +936,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16153/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Lipis
   last_updated_on: 2019-05-28 07:54:40.000000000 Z
@@ -908,8 +950,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16932/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/plugins/gatsby-transformer-gatsby-api-calls/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-transformer-javascript-frontmatter/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-03-11 15:20:57.000000000 Z
 - name: "@babel/plugin-proposal-class-properties"
@@ -923,8 +965,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-graphiql-explorer/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/babel-preset-gatsby-package/package.json
   last_updated_by: Alexander Nanberg
   last_updated_on: 2018-11-29 00:14:44.000000000 Z
 - name: "@babel/plugin-proposal-optional-chaining"
@@ -937,7 +979,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16306/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/babel-preset-gatsby-package/package.json
   last_updated_by: Alexander Nanberg
   last_updated_on: 2018-11-29 00:14:44.000000000 Z
@@ -951,8 +993,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16080/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/babel-preset-gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/babel-preset-gatsby-package/package.json
   last_updated_by: Alexander Nanberg
   last_updated_on: 2018-11-29 00:14:44.000000000 Z
 - name: "@babel/plugin-transform-runtime"
@@ -965,8 +1007,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-graphiql-explorer/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/babel-preset-gatsby-package/package.json
   last_updated_by: Alexander Nanberg
   last_updated_on: 2018-11-29 00:14:44.000000000 Z
 - name: "@babel/polyfill"
@@ -979,7 +1021,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16039/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Quinn McPhail
   last_updated_on: 2019-04-27 21:53:13.000000000 Z
@@ -993,8 +1035,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-graphiql-explorer/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/babel-preset-gatsby-package/package.json
   last_updated_by: Alexander Nanberg
   last_updated_on: 2018-11-29 00:14:44.000000000 Z
 - name: "@babel/preset-flow"
@@ -1007,8 +1049,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16270/default_8b65a873fd3277d73483d6846fa38192391abf23.png
-  detection_source_url: yarn.lock
-  detection_source: packages/gatsby-plugin-flow/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: packages/babel-preset-gatsby-package/package.json
   last_updated_by: Alexander Nanberg
   last_updated_on: 2018-11-29 00:14:44.000000000 Z
 - name: "@babel/preset-react"
@@ -1021,8 +1063,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-graphiql-explorer/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/babel-preset-gatsby-package/package.json
   last_updated_by: Alexander Nanberg
   last_updated_on: 2018-11-29 00:14:44.000000000 Z
 - name: "@babel/preset-typescript"
@@ -1035,7 +1077,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-plugin-typescript/package.json
   last_updated_by: Sidhartha Chatterjee
   last_updated_on: 2019-04-02 16:58:59.000000000 Z
@@ -1049,8 +1091,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15934/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/graphql-skip-limit/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: package.json
   last_updated_by: Lipis
   last_updated_on: 2019-05-28 07:54:40.000000000 Z
 - name: "@babel/traverse"
@@ -1063,8 +1105,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17114/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/plugins/gatsby-transformer-gatsby-api-calls/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-transformer-javascript-frontmatter/package.json
   last_updated_by: Sidhartha Chatterjee
   last_updated_on: 2019-04-08 11:04:58.000000000 Z
   vulnerabilities:
@@ -1085,7 +1127,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16786/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-transformer-react-docgen/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-03-11 15:20:57.000000000 Z
@@ -1099,8 +1141,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16475/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
-  detection_source_url: examples/using-emotion-prismjs/package.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-emotion-prismjs/package.json
+  detection_source: examples/using-emotion-prismjs/package.json
   last_updated_by: Chuck
   last_updated_on: 2019-04-18 17:23:15.000000000 Z
 - name: "@emotion/styled"
@@ -1113,8 +1155,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: examples/using-emotion-prismjs/package.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-emotion-prismjs/package.json
+  detection_source: examples/using-emotion-prismjs/package.json
   last_updated_by: Chuck
   last_updated_on: 2019-04-18 17:23:15.000000000 Z
 - name: "@mdx-js/mdx"
@@ -1127,8 +1169,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17807/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source_url: examples/using-i18n/package.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-i18n/package.json
+  detection_source: examples/using-i18n/package.json
   last_updated_by: Lennart
   last_updated_on: 2019-04-08 16:47:29.000000000 Z
 - name: "@mdx-js/react"
@@ -1141,8 +1183,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
-  detection_source_url: themes/gatsby-theme-blog-mdx/package.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/themes/gatsby-theme-blog-mdx/package.json
+  detection_source: themes/gatsby-theme-blog-mdx/package.json
   last_updated_by: John Otander
   last_updated_on: 2019-05-15 18:14:12.000000000 Z
 - name: "@types/node"
@@ -1155,7 +1197,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: examples/using-typescript/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
@@ -1169,7 +1211,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: examples/using-typescript/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
@@ -1183,7 +1225,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: examples/using-typescript/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-typescript/package.json
   detection_source: examples/using-typescript/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
@@ -1197,7 +1239,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18101/image.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Rick Brown
   last_updated_on: 2019-04-12 14:45:09.000000000 Z
@@ -1212,7 +1254,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17074/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-source-npm-package-search/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -1226,7 +1268,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17935/default_c741d08ac1035482640dcd4a57c59231d0ce4858.png
-  detection_source_url: examples/using-multiple-providers/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-multiple-providers/package.json
   detection_source: examples/using-multiple-providers/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-08-16 21:51:25.000000000 Z
@@ -1240,7 +1282,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17085/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-source-graphql/package.json
   last_updated_by: Mike Allanson
   last_updated_on: 2019-03-08 14:39:44.000000000 Z
@@ -1254,7 +1296,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17167/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-source-graphql/package.json
   last_updated_by: Mike Allanson
   last_updated_on: 2019-03-08 14:39:44.000000000 Z
@@ -1268,8 +1310,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: infrastructure/functions/onGithubWebhook/yarn.lock
-  detection_source: packages/gatsby-plugin-sharp/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/functions/onGithubWebhook/yarn.lock
+  detection_source: infrastructure/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-11-15 01:41:33.000000000 Z
 - name: aws-sdk
@@ -1282,7 +1324,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: infrastructure/yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/yarn.lock
   detection_source: packages/gatsby-transformer-screenshot/lambda/package.json
   last_updated_by: David Beckley
   last_updated_on: 2018-02-06 05:22:37.000000000 Z
@@ -1303,7 +1345,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Mikhail Novikov
   last_updated_on: 2019-05-16 07:50:59.000000000 Z
@@ -1317,8 +1359,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: Ricky de Laveaga
   last_updated_on: 2018-11-16 13:04:07.000000000 Z
 - name: babel-jest
@@ -1331,8 +1373,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: examples/using-jest/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-01-28 14:34:20.000000000 Z
 - name: babel-loader
@@ -1345,8 +1387,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-graphiql-explorer/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-31 23:16:45.000000000 Z
 - name: babel-plugin-add-module-exports
@@ -1359,7 +1401,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15943/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2019-05-31 23:24:33.000000000 Z
@@ -1373,7 +1415,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17218/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-react-router-scroll/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-03-28 21:12:09.000000000 Z
@@ -1387,7 +1429,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16308/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-14 20:02:36.000000000 Z
@@ -1401,8 +1443,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16379/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
-  detection_source_url: yarn.lock
-  detection_source: packages/gatsby-plugin-lodash/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: examples/using-remark/package.json
   last_updated_by: g7Dev
   last_updated_on: 2019-04-22 18:55:42.000000000 Z
 - name: babel-plugin-macros
@@ -1415,7 +1457,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17191/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/babel-preset-gatsby/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-04-02 16:55:42.000000000 Z
@@ -1429,7 +1471,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18332/default_8c43be9f84d40b0049655d957d0cfc4373a3c5e8.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-plugin-react-css-modules/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-03-11 15:20:57.000000000 Z
@@ -1444,8 +1486,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16651/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
-  detection_source_url: examples/using-multiple-providers/package.json
-  detection_source: examples/using-styled-components/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-multiple-providers/package.json
+  detection_source: examples/using-multiple-providers/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
 - name: babel-preset-gatsby-package
@@ -1458,8 +1500,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17872/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source_url: packages/babel-plugin-remove-graphql-queries/package.json
-  detection_source: packages/graphql-skip-limit/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/babel-plugin-remove-graphql-queries/package.json
+  detection_source: packages/babel-plugin-remove-graphql-queries/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-04-02 16:55:42.000000000 Z
 - name: bluebird
@@ -1472,8 +1514,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15866/default_01b1499f31f2eff6ed744a57b056e181400df5b2.png
-  detection_source_url: scripts/site-up-checker/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/scripts/site-up-checker/yarn.lock
+  detection_source: packages/gatsby-cli/package.json
   last_updated_by: Jason Quense
   last_updated_on: 2017-10-12 18:03:29.000000000 Z
 - name: boxen
@@ -1486,7 +1528,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16617/default_bfa6d5d12cc0af739d6b3d4c69dddc66832b1d34.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-telemetry/package.json
   last_updated_by: Lennart
   last_updated_on: 2019-04-24 17:04:50.000000000 Z
@@ -1500,7 +1542,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17198/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Rodrigo Quezada
   last_updated_on: 2018-12-03 12:43:23.000000000 Z
@@ -1511,6 +1553,20 @@ tools:
     detected_date: Aug 22
     severity: moderate
     first_patched: 4.16.5
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: ".github/actions/gatsby-site-showcase-validator/package.json"
+  last_updated_by: Benjamin Lannon
+  last_updated_on: 2019-05-29 16:19:22.000000000 Z
 - name: cheerio
   description: Fast, flexible, and lean implementation of core jQuery
   package_url: https://www.npmjs.com/cheerio
@@ -1521,8 +1577,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-remark-responsive-iframe/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: ".github/actions/gatsby-site-showcase-validator/package.json"
   last_updated_by: Benjamin Lannon
   last_updated_on: 2019-05-29 16:19:22.000000000 Z
 - name: chokidar
@@ -1535,8 +1591,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-10-07 04:07:25.000000000 Z
 - name: clipboardy
@@ -1549,7 +1605,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17902/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-cli/package.json
   last_updated_by: Anthony Marcar
   last_updated_on: 2019-04-17 01:40:30.000000000 Z
@@ -1563,7 +1619,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16987/default_32f63a11ae9faad5eff3053ff1a1600fde8a525b.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-plugin-coffeescript/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -1577,8 +1633,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17307/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-cli/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-11-02 18:06:34.000000000 Z
 - name: compression
@@ -1591,7 +1647,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Mikhail Novikov
   last_updated_on: 2019-06-14 08:30:18.000000000 Z
@@ -1606,8 +1662,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16988/default_32f63a11ae9faad5eff3053ff1a1600fde8a525b.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-telemetry/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-cli/package.json
   last_updated_by: Yvonnick FRIN
   last_updated_on: 2019-04-11 10:15:53.000000000 Z
 - name: copyfiles
@@ -1620,7 +1676,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16453/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Saransh Kataria
   last_updated_on: 2019-02-13 14:55:34.000000000 Z
@@ -1634,8 +1690,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/gatsbygram/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
 - name: cors
@@ -1648,7 +1704,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-05-16 01:03:57.000000000 Z
@@ -1662,7 +1718,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16454/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-plugin-offline/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-02-22 00:56:23.000000000 Z
@@ -1676,8 +1732,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: e2e-tests/development-runtime/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-05-15 14:58:27.000000000 Z
 - name: csvtojson
@@ -1691,7 +1747,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18236/default_006273ebad013729e0798e0376579caca9efaa4e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-transformer-csv/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2018-02-13 00:48:46.000000000 Z
@@ -1705,7 +1761,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16224/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
-  detection_source_url: examples/using-javascript-transforms/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-javascript-transforms/package.json
   detection_source: examples/using-javascript-transforms/package.json
   last_updated_by: Jacob Bolda
   last_updated_on: 2017-07-18 19:16:42.000000000 Z
@@ -1719,7 +1775,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16480/default_55f3303d620c93eecbee69c43373d484f2be492f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-03-22 10:23:24.000000000 Z
@@ -1733,8 +1789,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: infrastructure/functions/onGithubWebhook/yarn.lock
-  detection_source: themes/gatsby-theme-blog/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/functions/onGithubWebhook/yarn.lock
+  detection_source: packages/gatsby-transformer-sqip/package.json
   last_updated_by: Benedikt Rötsch
   last_updated_on: 2018-05-01 06:23:17.000000000 Z
 - name: del
@@ -1747,8 +1803,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-dev-cli/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-03-27 16:26:27.000000000 Z
 - name: detect-port
@@ -1761,7 +1817,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16949/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -1775,7 +1831,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16866/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
-  detection_source_url: scripts/site-up-checker/yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/scripts/site-up-checker/yarn.lock
   detection_source: scripts/site-up-checker/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-05-02 20:37:07.000000000 Z
@@ -1789,7 +1845,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16311/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-transformer-documentationjs/package.json
   last_updated_by: Devon Govett
   last_updated_on: 2019-05-01 19:20:42.000000000 Z
@@ -1803,8 +1859,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16737/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
-  detection_source_url: examples/using-emotion-prismjs/package.json
-  detection_source: examples/using-gatsby-image/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-emotion-prismjs/package.json
+  detection_source: examples/using-emotion-prismjs/package.json
   last_updated_by: Chuck
   last_updated_on: 2019-04-18 17:23:15.000000000 Z
 - name: emotion-theming
@@ -1817,8 +1873,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17722/default_148ef251371a47f69a7acad9f3b25e2ec2ee4aa4.png
-  detection_source_url: themes/gatsby-theme-blog/package.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/themes/gatsby-theme-blog/package.json
+  detection_source: themes/gatsby-theme-blog/package.json
   last_updated_by: John Otander
   last_updated_on: 2019-05-15 18:14:12.000000000 Z
 - name: envinfo
@@ -1831,8 +1887,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18051/image.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-telemetry/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-cli/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-04-11 20:19:27.000000000 Z
 - name: escape-string-regexp
@@ -1845,7 +1901,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16736/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-plugin-catch-links/package.json
   last_updated_by: Ryan Scott
   last_updated_on: 2018-10-05 17:33:01.000000000 Z
@@ -1859,7 +1915,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: examples/using-mobx/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-mobx/package.json
   detection_source: examples/using-mobx/package.json
   last_updated_by: jonniebigodes
   last_updated_on: 2018-11-01 15:25:57.000000000 Z
@@ -1873,8 +1929,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16249/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: Ricky de Laveaga
   last_updated_on: 2018-11-16 13:04:07.000000000 Z
 - name: eslint-config-prettier
@@ -1887,8 +1943,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: Ricky de Laveaga
   last_updated_on: 2018-11-16 13:04:07.000000000 Z
 - name: eslint-config-react-app
@@ -1901,7 +1957,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16088/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-21 05:10:19.000000000 Z
@@ -1915,7 +1971,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15889/default_724d5bc657ec09174564f19f2a5d26098549124a.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-17 10:30:58.000000000 Z
@@ -1929,7 +1985,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16954/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Lipis
   last_updated_on: 2019-05-28 07:54:40.000000000 Z
@@ -1943,8 +1999,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15940/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-03-22 10:23:24.000000000 Z
 - name: eslint-plugin-import
@@ -1957,8 +2013,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-03-22 10:23:24.000000000 Z
 - name: eslint-plugin-jsx-a11y
@@ -1971,8 +2027,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-03-22 10:23:24.000000000 Z
 - name: eslint-plugin-prettier
@@ -1985,8 +2041,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-03-22 10:23:24.000000000 Z
 - name: eslint-plugin-react
@@ -1999,8 +2055,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: themes/gatsby-theme-blog/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-03-22 10:23:24.000000000 Z
 - name: execa
@@ -2013,8 +2069,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-dev-cli/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: integration-tests/gatsby-pipeline/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-02-11 11:36:32.000000000 Z
 - name: express
@@ -2027,7 +2083,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Rick Brown
   last_updated_on: 2019-04-12 14:45:09.000000000 Z
@@ -2048,7 +2104,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17490/default_1d2902e8f9c84259702671591379572493b9009b.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2019-05-31 23:24:33.000000000 Z
@@ -2062,8 +2118,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16327/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
-  detection_source_url: yarn.lock
-  detection_source: packages/gatsby-source-faker/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: benchmarks/markdown/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2018-10-03 17:55:53.000000000 Z
 - name: file-loader
@@ -2076,7 +2132,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-17 10:30:58.000000000 Z
@@ -2090,7 +2146,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17196/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-source-filesystem/package.json
   last_updated_by: Orta
   last_updated_on: 2019-04-30 06:57:58.000000000 Z
@@ -2104,8 +2160,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17025/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
-  detection_source_url: infrastructure/functions/onGithubWebhook/yarn.lock
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/functions/onGithubWebhook/yarn.lock
+  detection_source: examples/hn/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-04-28 17:32:40.000000000 Z
   vulnerabilities:
@@ -2125,7 +2181,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15957/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Lipis
   last_updated_on: 2019-05-28 07:54:40.000000000 Z
@@ -2139,7 +2195,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17272/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
-  detection_source_url: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
@@ -2154,8 +2210,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: benchmarks/plugin-manifest/package.json
   last_updated_by: Alex Moon
   last_updated_on: 2019-04-08 09:00:42.000000000 Z
 - name: fuse.js
@@ -2168,7 +2224,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17405/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
-  detection_source_url: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -2183,8 +2239,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18081/image.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: e2e-tests/development-runtime/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-05-15 14:58:27.000000000 Z
 - name: gatsby-plugin-react-helmet
@@ -2197,8 +2253,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17532/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: e2e-tests/development-runtime/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-05-15 14:58:27.000000000 Z
 - name: gatsby-plugin-sharp
@@ -2211,8 +2267,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17786/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: e2e-tests/development-runtime/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-05-15 14:58:27.000000000 Z
   vulnerabilities:
@@ -2233,8 +2289,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17100/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: e2e-tests/development-runtime/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-05-15 14:58:27.000000000 Z
 - name: gatsby-transformer-remark
@@ -2248,8 +2304,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18647/default_3eb5180fb08eb9c684c6269a642bfab3a16bcf1d.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: benchmarks/markdown/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-02-12 14:16:41.000000000 Z
   vulnerabilities:
@@ -2269,8 +2325,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18094/image.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: e2e-tests/development-runtime/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-05-15 14:58:27.000000000 Z
 - name: gh-pages
@@ -2283,8 +2339,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15967/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: examples/using-mobx/package.json
-  detection_source: examples/using-remark-copy-linked-files/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-mobx/package.json
+  detection_source: examples/using-mobx/package.json
   last_updated_by: jonniebigodes
   last_updated_on: 2018-11-01 15:25:57.000000000 Z
 - name: glamor
@@ -2297,8 +2353,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18009/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source_url: examples/gatsbygram/package.json
-  detection_source: examples/using-wordpress/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/gatsbygram/package.json
+  detection_source: examples/gatsbygram/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
 - name: glob
@@ -2311,8 +2367,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: infrastructure/yarn.lock
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/yarn.lock
+  detection_source: e2e-tests/production-runtime/package.json
   last_updated_by: Anthony Marcar
   last_updated_on: 2019-06-11 06:22:19.000000000 Z
 - name: got
@@ -2325,8 +2381,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: scripts/gatsby-plugin-checker/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-source-filesystem/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2016-12-01 21:20:24.000000000 Z
   vulnerabilities:
@@ -2346,8 +2402,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18362/default_c13193d39b06aca7675079cf8440e70e9150db5e.png
-  detection_source_url: infrastructure/functions/onGithubWebhook/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/functions/onGithubWebhook/yarn.lock
+  detection_source: infrastructure/functions/onGithubWebhook/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-11-15 01:41:33.000000000 Z
 - name: graphql-tools
@@ -2360,7 +2416,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16697/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-source-graphql/package.json
   last_updated_by: Mike Allanson
   last_updated_on: 2019-03-08 14:39:44.000000000 Z
@@ -2374,8 +2430,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17773/default_2f87d5add351cc79d3471e48bc0dd6f92c1288ad.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-transformer-remark/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: benchmarks/markdown/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2018-10-03 17:55:53.000000000 Z
 - name: hosted-git-info
@@ -2388,7 +2444,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18382/default_0008ec7bce131ce74614376dd8fedbce07bc8742.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-cli/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-04-11 20:19:27.000000000 Z
@@ -2409,10 +2465,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: yarn.lock
-  detection_source: packages/gatsby-plugin-netlify-cms/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: packages/gatsby-graphiql-explorer/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-31 23:16:45.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Lipis
+  last_updated_on: 2019-05-28 07:54:40.000000000 Z
 - name: identity-obj-proxy
   description: An identity object using ES6 proxies
   package_url: https://www.npmjs.com/identity-obj-proxy
@@ -2423,8 +2493,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16206/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
-  detection_source_url: examples/using-jest/package.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-jest/package.json
+  detection_source: examples/using-jest/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2018-11-05 19:40:20.000000000 Z
 - name: imagemin
@@ -2437,7 +2507,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17228/default_48f040bdc5f6c639c70bf350f8b8158ede27286c.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-plugin-sharp/package.json
   last_updated_by: Sibiraj
   last_updated_on: 2018-12-19 23:36:34.000000000 Z
@@ -2451,7 +2521,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18375/default_dfa436ad7e86b77a556a6a1efbcfc256ca9653ce.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-plugin-sharp/package.json
   last_updated_by: Sibiraj
   last_updated_on: 2018-12-19 23:36:34.000000000 Z
@@ -2465,7 +2535,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17166/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-plugin-sharp/package.json
   last_updated_by: Sibiraj
   last_updated_on: 2018-12-19 23:36:34.000000000 Z
@@ -2479,8 +2549,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16272/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-source-graphql/package.json
   last_updated_by: Maarten Busstra
   last_updated_on: 2018-09-11 08:46:27.000000000 Z
 - name: is-wsl
@@ -2493,7 +2563,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17097/default_faf55ef1f2892d4dcce54ed77892756797ff34e1.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Lubomir Georgiev (Любомир Георгиев)
   last_updated_on: 2019-03-19 11:33:50.000000000 Z
@@ -2507,7 +2577,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16185/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: examples/using-multiple-providers/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-08-16 21:51:25.000000000 Z
@@ -2521,8 +2591,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16022/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: yarn.lock
-  detection_source: packages/gatsby-telemetry/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: integration-tests/gatsby-pipeline/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-02-11 11:36:32.000000000 Z
 - name: jest-dom
@@ -2535,8 +2605,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17257/default_116e98e237458e603feb81cfbf628c00544be692.png
-  detection_source_url: examples/using-jest/package.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-jest/package.json
+  detection_source: examples/using-jest/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-01-28 14:34:20.000000000 Z
 - name: jest-environment-jsdom-fourteen
@@ -2549,7 +2619,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16907/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Brennan Kinney
   last_updated_on: 2019-03-27 14:05:39.000000000 Z
@@ -2563,8 +2633,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16536/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: yarn.lock
-  detection_source: packages/gatsby-telemetry/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: package.json
   last_updated_by: Brennan Kinney
   last_updated_on: 2019-03-27 14:05:39.000000000 Z
 - name: joi
@@ -2577,8 +2647,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16173/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-source-contentful/package.json
   last_updated_by: Marcus Ericsson
   last_updated_on: 2017-06-03 02:35:15.000000000 Z
 - name: js-yaml
@@ -2591,8 +2661,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-transformer-yaml/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: ".github/actions/gatsby-site-showcase-validator/package.json"
   last_updated_by: Benjamin Lannon
   last_updated_on: 2019-05-29 16:19:22.000000000 Z
 - name: jscodeshift
@@ -2605,7 +2675,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17820/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-codemods/package.json
   last_updated_by: Adarsh Lilha
   last_updated_on: 2019-04-23 14:36:46.000000000 Z
@@ -2619,7 +2689,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15995/default_200de1a6fc4121e019ce4a5b0cf9ad37c7756e2d.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-17 10:30:58.000000000 Z
@@ -2633,8 +2703,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16908/default_9d2cf1136959e6b2caecf3db7c29f90a2e3bb587.png
-  detection_source_url: scripts/site-up-checker/yarn.lock
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/scripts/site-up-checker/yarn.lock
+  detection_source: packages/gatsby-source-contentful/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-06-18 06:17:44.000000000 Z
 - name: json2csv
@@ -2647,7 +2717,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17719/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-transformer-csv/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2018-02-13 00:48:46.000000000 Z
@@ -2661,8 +2731,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18250/default_c6b51515d4a1dde78342d80e969e295cabf381ac.png
-  detection_source_url: yarn.lock
-  detection_source: packages/gatsby-remark-katex/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: examples/using-remark/package.json
   last_updated_by: g7Dev
   last_updated_on: 2019-04-22 18:55:42.000000000 Z
 - name: less-loader
@@ -2675,10 +2745,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15989/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-plugin-less/package.json
   last_updated_by: Sibiraj
   last_updated_on: 2019-02-01 12:20:03.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 8.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Lipis
+  last_updated_on: 2019-05-28 07:54:40.000000000 Z
 - name: lodash-es
   description: Lodash exported as ES modules
   package_url: https://www.npmjs.com/lodash-es
@@ -2689,7 +2773,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16587/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
-  detection_source_url: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2019-04-19 06:09:24.000000000 Z
@@ -2728,8 +2812,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17204/default_183829c5079b84333a720d8590a328efc043ba0e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/gatsby-plugin-lodash/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: examples/using-remark/package.json
   last_updated_by: g7Dev
   last_updated_on: 2019-04-22 18:55:42.000000000 Z
 - name: lodash.camelcase
@@ -2742,7 +2826,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16436/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-source-mongodb/package.json
   last_updated_by: Raúl R Pearson
   last_updated_on: 2019-01-30 13:37:22.000000000 Z
@@ -2756,7 +2840,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17270/default_9b05b1c3b13fc328bf76b8d3fea01ff4688c0c1d.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-source-mongodb/package.json
   last_updated_by: Raúl R Pearson
   last_updated_on: 2019-01-30 13:37:22.000000000 Z
@@ -2770,7 +2854,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17755/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: themes/gatsby-theme-blog-mdx/package.json
   last_updated_by: John Otander
   last_updated_on: 2019-03-20 05:47:17.000000000 Z
@@ -2784,7 +2868,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16314/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-plugin-feed/package.json
   last_updated_by: Nicholas Young
   last_updated_on: 2017-07-19 04:38:28.000000000 Z
@@ -2811,7 +2895,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18436/default_7c0bc528b9c47f5cc09b0c87021a81c8d72b33f3.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-remark-code-repls/package.json
   last_updated_by: Brian Vaughn
   last_updated_on: 2017-11-09 17:15:07.000000000 Z
@@ -2825,7 +2909,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16342/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2016-11-21 19:40:27.000000000 Z
@@ -2839,8 +2923,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17487/default_1d2902e8f9c84259702671591379572493b9009b.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-source-filesystem/package.json
   last_updated_by: Orestis Ioannou
   last_updated_on: 2018-11-01 15:33:43.000000000 Z
 - name: micromatch
@@ -2853,7 +2937,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17143/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-plugin-page-creator/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2018-11-06 01:38:00.000000000 Z
@@ -2867,8 +2951,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16182/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: infrastructure/functions/onGithubWebhook/yarn.lock
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/functions/onGithubWebhook/yarn.lock
+  detection_source: packages/gatsby-source-filesystem/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
 - name: mini-css-extract-plugin
@@ -2881,8 +2965,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-plugin-netlify-cms/package.json
   last_updated_by: Tony Alves
   last_updated_on: 2019-05-03 10:20:12.000000000 Z
 - name: minimatch
@@ -2895,8 +2979,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: infrastructure/yarn.lock
-  detection_source: www/plugins/gatsby-transformer-gatsby-api-calls/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/yarn.lock
+  detection_source: packages/gatsby-plugin-google-gtag/package.json
   last_updated_by: Tyler Buchea
   last_updated_on: 2018-10-16 20:58:46.000000000 Z
   vulnerabilities:
@@ -2916,8 +3000,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18719/default_88ba18730de3c1cd8c358a23343f72c83971e808.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-06-10 22:29:24.000000000 Z
 - name: mkdirp
@@ -2930,8 +3014,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: infrastructure/yarn.lock
-  detection_source: themes/gatsby-theme-blog/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/yarn.lock
+  detection_source: examples/gatsbygram/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-03-09 19:33:48.000000000 Z
 - name: mobx-react
@@ -2944,7 +3028,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16661/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
-  detection_source_url: examples/using-mobx/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-mobx/package.json
   detection_source: examples/using-mobx/package.json
   last_updated_by: jonniebigodes
   last_updated_on: 2018-11-01 15:25:57.000000000 Z
@@ -2958,8 +3042,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-javascript-transforms/package.json
   last_updated_by: Jacob Bolda
   last_updated_on: 2017-07-18 19:16:42.000000000 Z
   vulnerabilities:
@@ -2985,8 +3069,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18018/image.png
-  detection_source_url: examples/gatsbygram/package.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/gatsbygram/package.json
+  detection_source: examples/gatsbygram/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-01-22 07:39:36.000000000 Z
 - name: node-fetch
@@ -2999,8 +3083,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: infrastructure/functions/onGithubWebhook/yarn.lock
-  detection_source: packages/gatsby-telemetry/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/functions/onGithubWebhook/yarn.lock
+  detection_source: ".github/actions/gatsby-site-showcase-validator/package.json"
   last_updated_by: Benjamin Lannon
   last_updated_on: 2019-05-29 16:19:22.000000000 Z
   vulnerabilities:
@@ -3026,8 +3110,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: examples/using-css-modules/package.json
-  detection_source: examples/using-sass/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-css-modules/package.json
+  detection_source: examples/using-css-modules/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
   vulnerabilities:
@@ -3053,8 +3137,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18102/image.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-remark-code-repls/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-11-13 20:27:34.000000000 Z
 - name: npm-package-arg
@@ -3067,7 +3151,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18689/default_97b689c91e523aad5ccec45c3b88d1f9b7cb4b6f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-remark-code-repls/package.json
   last_updated_by: krzysztofpniak
   last_updated_on: 2019-03-27 13:24:34.000000000 Z
@@ -3081,8 +3165,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: yarn.lock
-  detection_source: packages/gatsby-graphiql-explorer/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
+  detection_source: package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-11-26 17:30:18.000000000 Z
 - name: nprogress
@@ -3095,7 +3179,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-plugin-nprogress/package.json
   last_updated_by: Louis DeScioli
   last_updated_on: 2018-02-28 20:38:11.000000000 Z
@@ -3109,7 +3193,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16787/default_6c86c81e45e0f08d11e77cb7e07388a0317cf081.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-17 10:30:58.000000000 Z
@@ -3123,7 +3207,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16703/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
-  detection_source_url: examples/using-gatsby-image/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-gatsby-image/package.json
   detection_source: examples/using-gatsby-image/package.json
   last_updated_by: Florian Kissling
   last_updated_on: 2017-10-25 19:37:34.000000000 Z
@@ -3137,7 +3221,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15964/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-14 20:02:36.000000000 Z
@@ -3151,7 +3235,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18257/default_315a767553036d5263c95420817fe68cd3885651.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-transformer-sqip/package.json
   last_updated_by: Benedikt Rötsch
   last_updated_on: 2018-05-01 06:23:17.000000000 Z
@@ -3165,7 +3249,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17347/default_b8b4be8bd54f9619446b80b2bf448c0891101f2a.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2019-03-08 15:08:53.000000000 Z
@@ -3179,7 +3263,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16440/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-plugin-sitemap/package.json
   last_updated_by: Martin Helmut Fieber
   last_updated_on: 2018-12-27 14:15:41.000000000 Z
@@ -3194,7 +3278,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17943/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-08-29 22:33:55.000000000 Z
@@ -3208,7 +3292,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17014/default_192373fe2b3ded7bb442c39dbf0f34ca3e5bed5d.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-14 20:02:36.000000000 Z
@@ -3222,7 +3306,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16265/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Robert Cooper
   last_updated_on: 2019-06-04 18:55:40.000000000 Z
@@ -3236,8 +3320,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-plugin-postcss/package.json
   last_updated_by: Nikita Makhov
   last_updated_on: 2018-09-06 08:38:36.000000000 Z
 - name: prettier-eslint-cli
@@ -3250,7 +3334,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16620/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
-  detection_source_url: examples/using-gatsby-source-graphql/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-gatsby-source-graphql/package.json
   detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: Ricky de Laveaga
   last_updated_on: 2018-11-16 13:04:07.000000000 Z
@@ -3264,7 +3348,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16763/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-source-filesystem/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-07-25 23:27:29.000000000 Z
@@ -3278,7 +3362,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17692/default_52c11a434d2ce37281914a7f804e07cf95ab96f7.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-cli/package.json
   last_updated_by: Jason Quense
   last_updated_on: 2017-10-12 18:03:29.000000000 Z
@@ -3292,7 +3376,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17127/default_aae1698f13b22e457dce8faa3612b71379cf7a48.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-source-shopify/package.json
   last_updated_by: Angelo Ashmore
   last_updated_on: 2018-12-21 20:37:42.000000000 Z
@@ -3306,8 +3390,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-emotion-prismjs/package.json
   last_updated_by: Chuck
   last_updated_on: 2019-04-18 17:23:15.000000000 Z
   vulnerabilities:
@@ -3351,8 +3435,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16410/default_536789d2630ed352dc721a1c915ab456b7660201.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-source-filesystem/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/gatsbygram/package.json
   last_updated_by: El Yousfi Naoufal
   last_updated_on: 2019-04-01 02:20:52.000000000 Z
 - name: prompts
@@ -3365,7 +3449,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17250/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-cli/package.json
   last_updated_by: Frederik Bolding
   last_updated_on: 2019-05-22 17:06:46.000000000 Z
@@ -3379,8 +3463,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: themes/gatsby-theme-blog-mdx/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: e2e-tests/development-runtime/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2018-12-20 21:10:25.000000000 Z
 - name: puppeteer
@@ -3393,7 +3477,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16134/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: packages/gatsby-transformer-screenshot/lambda/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/packages/gatsby-transformer-screenshot/lambda/package.json
   detection_source: packages/gatsby-transformer-screenshot/lambda/package.json
   last_updated_by: David Beckley
   last_updated_on: 2018-02-06 05:22:37.000000000 Z
@@ -3414,8 +3498,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: infrastructure/functions/onGithubWebhook/yarn.lock
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/functions/onGithubWebhook/yarn.lock
+  detection_source: packages/gatsby-source-contentful/package.json
   last_updated_by: Marcus Ericsson
   last_updated_on: 2017-06-03 02:35:15.000000000 Z
   vulnerabilities:
@@ -3435,8 +3519,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-remark-images/package.json
   last_updated_by: James Williams
   last_updated_on: 2019-02-15 18:35:21.000000000 Z
 - name: raw-loader
@@ -3449,7 +3533,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16030/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-17 10:30:58.000000000 Z
@@ -3463,7 +3547,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17111/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
-  detection_source_url: examples/using-multiple-providers/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-multiple-providers/package.json
   detection_source: examples/using-multiple-providers/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-08-16 21:51:25.000000000 Z
@@ -3477,7 +3561,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17254/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
-  detection_source_url: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Florian Kissling
   last_updated_on: 2019-06-15 00:50:06.000000000 Z
@@ -3491,7 +3575,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16112/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-21 05:10:19.000000000 Z
@@ -3513,7 +3597,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16818/default_9a5182350af29cb82b3344853e865051f508ac6c.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-transformer-react-docgen/package.json
   last_updated_by: Jason Quense
   last_updated_on: 2019-04-02 21:20:21.000000000 Z
@@ -3527,8 +3611,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: benchmarks/create-pages/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-02-12 14:16:41.000000000 Z
 - name: react-error-overlay
@@ -3541,7 +3625,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17066/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-21 05:10:19.000000000 Z
@@ -3555,8 +3639,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16513/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: e2e-tests/development-runtime/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2019-05-15 14:58:27.000000000 Z
 - name: react-icons
@@ -3569,8 +3653,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
-  detection_source_url: examples/gatsbygram/package.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/gatsbygram/package.json
+  detection_source: examples/gatsbygram/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
 - name: react-jss
@@ -3583,8 +3667,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17302/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
-  detection_source_url: examples/using-jss/package.json
-  detection_source: examples/using-multiple-providers/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-jss/package.json
+  detection_source: examples/using-jss/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
 - name: react-live
@@ -3597,7 +3681,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18625/default_6aa055317c2b28723235bf769cdc93c28d788d16.png
-  detection_source_url: examples/styleguide/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/styleguide/package.json
   detection_source: examples/styleguide/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
@@ -3611,8 +3695,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16926/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
-  detection_source_url: examples/gatsbygram/package.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/gatsbygram/package.json
+  detection_source: examples/gatsbygram/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
 - name: react-redux
@@ -3625,8 +3709,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: examples/using-multiple-providers/package.json
-  detection_source: examples/using-redux/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-multiple-providers/package.json
+  detection_source: examples/using-multiple-providers/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-08-16 21:51:25.000000000 Z
 - name: react-transition-group
@@ -3639,8 +3723,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: examples/client-only-paths/package.json
-  detection_source: examples/using-page-transitions/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/client-only-paths/package.json
+  detection_source: examples/client-only-paths/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-08-06 11:24:06.000000000 Z
 - name: read-chunk
@@ -3653,7 +3737,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18679/default_796854034d0fb722b81b1d885cb3ab88a613d5fb.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-source-filesystem/package.json
   last_updated_by: Orestis Ioannou
   last_updated_on: 2018-11-01 15:33:43.000000000 Z
@@ -3667,7 +3751,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16636/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-remark-code-repls/package.json
   last_updated_by: Nicolas Goutay
   last_updated_on: 2019-03-13 09:39:32.000000000 Z
@@ -3681,8 +3765,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16952/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-transformer-remark/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/using-gatsby-source-graphql/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2019-03-22 10:23:24.000000000 Z
 - name: remark-parse
@@ -3695,7 +3779,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17485/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-transformer-remark/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -3709,7 +3793,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18614/default_b831eda26de3ba8a4563abf7f2a3af117da4db50.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-transformer-remark/package.json
   last_updated_by: Haz
   last_updated_on: 2019-02-22 07:16:40.000000000 Z
@@ -3723,8 +3807,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: scripts/site-up-checker/yarn.lock
-  detection_source: scripts/site-up-checker/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/scripts/site-up-checker/yarn.lock
+  detection_source: examples/gatsbygram/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-01-22 07:39:36.000000000 Z
   vulnerabilities:
@@ -3744,7 +3828,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16072/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: scripts/site-up-checker/yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/scripts/site-up-checker/yarn.lock
   detection_source: scripts/site-up-checker/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-05-02 20:37:07.000000000 Z
@@ -3758,7 +3842,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16305/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: integration-tests/gatsby-pipeline/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-02-11 11:36:32.000000000 Z
@@ -3772,8 +3856,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: infrastructure/yarn.lock
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/yarn.lock
+  detection_source: package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
 - name: s3
@@ -3786,7 +3870,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18491/default_0f684fdba52879fd48ceb8876e4283627899355a.png
-  detection_source_url: infrastructure/yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/yarn.lock
   detection_source: infrastructure/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-11-15 01:41:33.000000000 Z
@@ -3800,7 +3884,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17508/default_1d2902e8f9c84259702671591379572493b9009b.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-transformer-remark/package.json
   last_updated_by: stefanprobst
   last_updated_on: 2018-10-24 11:31:46.000000000 Z
@@ -3827,7 +3911,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-plugin-sass/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -3841,11 +3925,17 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-transformer-sharp/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-plugin-manifest/package.json
   last_updated_by: Chuck
   last_updated_on: 2019-05-03 13:02:29.000000000 Z
   vulnerabilities:
+  - name: sharp vulnerability in libwebp dependency CVE-2023-4863
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-54xq-cgqr-rpm3
+    detected_date: Nov 17
+    severity: high
+    first_patched: 0.32.6
   - name: sharp vulnerable to Command Injection in post-installation over build environment
     cve_id: CVE-2022-29256
     cve_url: https://github.com/advisories/GHSA-gp95-ppv5-3jc5
@@ -3862,7 +3952,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: infrastructure/yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/yarn.lock
   detection_source: infrastructure/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-11-15 01:41:33.000000000 Z
@@ -3889,7 +3979,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18507/default_bcf2e36c9cf75d93afc709672b42a79da51a3526.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -3903,8 +3993,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16831/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: examples/client-only-paths/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-05-11 18:46:43.000000000 Z
 - name: slug
@@ -3917,7 +4007,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17225/default_c6388e9ebad8a4ea0209a3440636fd19354e82d2.png
-  detection_source_url: examples/gatsbygram/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/gatsbygram/package.json
   detection_source: examples/gatsbygram/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-01-22 07:39:36.000000000 Z
@@ -3938,7 +4028,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17389/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
-  detection_source_url: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-06-12 11:41:37.000000000 Z
@@ -3952,8 +4042,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16339/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-telemetry/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-cli/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-22 14:39:13.000000000 Z
 - name: stack-trace
@@ -3966,8 +4056,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17627/default_a2ed0e6920692a262585bcb41289d278d6e5223e.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-cli/package.json
   last_updated_by: Maxime Quandalle
   last_updated_on: 2018-07-13 16:40:40.000000000 Z
 - name: strip-ansi
@@ -3980,7 +4070,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16331/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-cli/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-21 05:10:19.000000000 Z
@@ -3994,8 +4084,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-graphiql-explorer/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-27 15:38:05.000000000 Z
 - name: styled-jsx
@@ -4008,7 +4098,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17785/default_ade6298147a2f4c78d7d49e1ea77c0d3a3bbd44f.png
-  detection_source_url: examples/using-styled-jsx/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-styled-jsx/package.json
   detection_source: examples/using-styled-jsx/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2018-09-17 20:54:48.000000000 Z
@@ -4022,7 +4112,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17321/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
-  detection_source_url: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Florian Kissling
   last_updated_on: 2019-06-15 00:50:06.000000000 Z
@@ -4036,7 +4126,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16266/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Florian Kissling
   last_updated_on: 2019-06-15 00:50:06.000000000 Z
@@ -4050,7 +4140,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17708/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: www/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/www/package.json
   detection_source: www/package.json
   last_updated_by: Florian Kissling
   last_updated_on: 2019-06-15 00:50:06.000000000 Z
@@ -4064,7 +4154,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16131/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-plugin-stylus/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -4078,7 +4168,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16232/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-plugin-stylus/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -4092,8 +4182,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16716/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-plugin-sharp/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: package.json
   last_updated_by: Lipis
   last_updated_on: 2019-05-28 07:54:40.000000000 Z
 - name: tar
@@ -4106,7 +4196,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16466/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-transformer-screenshot/lambda/package.json
   last_updated_by: David Beckley
   last_updated_on: 2018-02-06 05:22:37.000000000 Z
@@ -4155,7 +4245,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16143/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-14 20:02:36.000000000 Z
@@ -4169,8 +4259,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18286/default_14d018f911261a59bddc0d862496e58cd91c1853.png
-  detection_source_url: themes/gatsby-theme-blog-mdx/package.json
-  detection_source: themes/gatsby-theme-notes/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/themes/gatsby-theme-blog-mdx/package.json
+  detection_source: themes/gatsby-theme-blog-mdx/package.json
   last_updated_by: John Otander
   last_updated_on: 2019-05-15 18:14:12.000000000 Z
 - name: toml
@@ -4183,7 +4273,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18079/image.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-transformer-toml/package.json
   last_updated_by: Louis DeScioli
   last_updated_on: 2018-02-28 20:38:11.000000000 Z
@@ -4198,7 +4288,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16083/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
-  detection_source_url: examples/using-typescript/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-typescript/package.json
   detection_source: examples/using-typescript/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -4212,7 +4302,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16289/default_e8196e273db814cf9be505b35dec386fafb0dbaa.png
-  detection_source_url: examples/using-typescript/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/examples/using-typescript/package.json
   detection_source: examples/using-typescript/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -4226,7 +4316,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16268/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-transformer-remark/package.json
   last_updated_by: Haz
   last_updated_on: 2019-02-22 07:16:40.000000000 Z
@@ -4240,7 +4330,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17259/default_03da3f7f53e439ab3b23ec47828b2f3229885efd.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-transformer-remark/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-10-17 01:52:31.000000000 Z
@@ -4254,8 +4344,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17139/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-transformer-remark/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: packages/gatsby-remark-autolink-headers/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
 - name: update-notifier
@@ -4268,7 +4358,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16264/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-cli/package.json
   last_updated_by: Kunall Banerjee
   last_updated_on: 2017-12-10 06:07:04.000000000 Z
@@ -4282,7 +4372,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17237/default_4cd9fed0bfdeacace38f5fa25eb085538f01330b.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-remark-code-repls/package.json
   last_updated_by: Pedr Browne
   last_updated_on: 2017-12-13 02:15:51.000000000 Z
@@ -4299,6 +4389,12 @@ tools:
     detected_date: Aug 22
     severity: high
     first_patched: 1.19.6
+  - name: URL Confusion When Scheme Not Supplied in medialize/uri.js
+    cve_id: CVE-2022-1233
+    cve_url: https://github.com/advisories/GHSA-g694-m8vq-gv9h
+    detected_date: Apr 13
+    severity: moderate
+    first_patched: 1.19.11
   - name: Open Redirect in urijs
     cve_id: CVE-2022-0868
     cve_url: https://github.com/advisories/GHSA-8h2f-7jc4-7m3m
@@ -4317,24 +4413,18 @@ tools:
     detected_date: Feb 26
     severity: moderate
     first_patched: 1.19.8
-  - name: 'URIjs Vulnerable to Hostname spoofing via backslashes in URL '
-    cve_id: CVE-2021-3647
-    cve_url: https://github.com/advisories/GHSA-89gv-h8wf-cg8r
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 1.19.7
   - name: Hostname spoofing via backslashes in URL
     cve_id: CVE-2020-26291
     cve_url: https://github.com/advisories/GHSA-3329-pjwv-fjpg
     detected_date: Aug 22
     severity: moderate
     first_patched: 1.19.4
-  - name: URL Confusion When Scheme Not Supplied in medialize/uri.js
-    cve_id: CVE-2022-1233
-    cve_url: https://github.com/advisories/GHSA-g694-m8vq-gv9h
-    detected_date: Apr 13
+  - name: 'URIjs Vulnerable to Hostname spoofing via backslashes in URL '
+    cve_id: CVE-2021-3647
+    cve_url: https://github.com/advisories/GHSA-89gv-h8wf-cg8r
+    detected_date: Aug 22
     severity: moderate
-    first_patched: 1.19.11
+    first_patched: 1.19.7
 - name: url-loader
   description: A loader for webpack which transforms files into base64 URIs
   package_url: https://www.npmjs.com/url-loader
@@ -4345,7 +4435,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-17 10:30:58.000000000 Z
@@ -4359,7 +4449,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18011/image.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Samuel Cha
   last_updated_on: 2019-04-24 11:09:16.000000000 Z
@@ -4373,8 +4463,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: scripts/site-up-checker/yarn.lock
-  detection_source: packages/gatsby/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/scripts/site-up-checker/yarn.lock
+  detection_source: packages/gatsby-cli/package.json
   last_updated_by: Jarmo Isotalo
   last_updated_on: 2019-03-26 13:20:52.000000000 Z
 - name: valid-url
@@ -4387,7 +4477,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17606/default_e98b11d23d67b728bd1f3e02eba62d97a55febbd.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-source-filesystem/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2018-06-17 06:13:46.000000000 Z
@@ -4401,7 +4491,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16555/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby-react-router-scroll/package.json
   last_updated_by: Kyle Mathews
   last_updated_on: 2017-09-16 12:17:44.000000000 Z
@@ -4415,7 +4505,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-graphiql-explorer/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-31 23:16:45.000000000 Z
@@ -4429,7 +4519,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16020/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Quinn McPhail
   last_updated_on: 2019-04-27 21:53:13.000000000 Z
@@ -4443,7 +4533,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Quinn McPhail
   last_updated_on: 2019-04-27 21:53:13.000000000 Z
@@ -4457,7 +4547,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16052/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Ward Peeters
   last_updated_on: 2019-05-17 10:30:58.000000000 Z
@@ -4471,7 +4561,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15925/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: starters/blog/package-lock.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
   detection_source: packages/gatsby/package.json
   last_updated_by: Maël Nison
   last_updated_on: 2019-03-15 16:27:41.000000000 Z
@@ -4485,7 +4575,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16094/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: infrastructure/functions/onGithubWebhook/yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/infrastructure/functions/onGithubWebhook/yarn.lock
   detection_source: packages/gatsby-graphiql-explorer/package.json
   last_updated_by: Michal Piechowiak
   last_updated_on: 2019-05-31 23:16:45.000000000 Z
@@ -4499,7 +4589,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16781/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/yarn.lock
   detection_source: packages/gatsby-transformer-excel/package.json
   last_updated_by: Michael Holtzman
   last_updated_on: 2018-09-10 20:45:59.000000000 Z
@@ -4538,7 +4628,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: starters/blog/package-lock.json
-  detection_source: packages/gatsby-dev-cli/package.json
+  detection_source_url: https://github.com/drunkensouljah/gatsby/blob/master/starters/blog/package-lock.json
+  detection_source: e2e-tests/development-runtime/package.json
   last_updated_by: Dustin Schau
   last_updated_on: 2018-12-20 21:10:25.000000000 Z
