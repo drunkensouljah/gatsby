@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 drunkensouljah/gatsby is built on the following main stack:
+
 - [Google Analytics](http://www.google.com/analytics) – General Analytics
 - [CircleCI](https://circleci.com/) – Continuous Integration
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
@@ -62,11 +63,13 @@ drunkensouljah/gatsby is built on the following main stack:
 - [Algolia](https://www.algolia.com/?utm_source=stackshare&utm_medium=referral) – Search as a Service
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 drunkensouljah/gatsby is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/64/cU74ahCn_400x400.jpg' alt='Google Analytics'/> [Google Analytics](http://www.google.com/analytics) – General Analytics
 - <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
@@ -127,14 +130,15 @@ drunkensouljah/gatsby is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png' alt='Algolia'/> [Algolia](https://www.algolia.com/?utm_source=stackshare&utm_medium=referral) – Search as a Service
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [drunkensouljah/gatsby](https://github.com/drunkensouljah/gatsby)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|306<br/>Tools used|11/09/23 <br/>Report generated|
+|309<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -726,9 +730,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (238)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (241)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (238)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (241)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -778,6 +782,7 @@ Full tech stack [here](/techstack.md)
 |[bluebird](https://www.npmjs.com/bluebird)|v3.5.0|10/12/17|Jason Quense |MIT|N/A|
 |[boxen](https://www.npmjs.com/boxen)|v3.2.0|04/24/19|Lennart |MIT|N/A|
 |[browserslist](https://www.npmjs.com/browserslist)|v4.6.2|12/03/18|Rodrigo Quezada |MIT|[CVE-2021-23364](https://github.com/advisories/GHSA-w8qv-6jwh-64r5) (Moderate)|
+|[chalk](https://www.npmjs.com/chalk)|v1.1.3|05/29/19|Benjamin Lannon |MIT|N/A|
 |[cheerio](https://www.npmjs.com/cheerio)|v1.0.0|05/29/19|Benjamin Lannon |MIT|N/A|
 |[chokidar](https://www.npmjs.com/chokidar)|v2.1.2|10/07/17|Kyle Mathews |MIT|N/A|
 |[clipboardy](https://www.npmjs.com/clipboardy)|v1.2.3|04/17/19|Anthony Marcar |MIT|N/A|
@@ -839,6 +844,7 @@ Full tech stack [here](/techstack.md)
 |[gray-matter](https://www.npmjs.com/gray-matter)|v4.0.2|10/03/18|Dustin Schau |MIT|N/A|
 |[hosted-git-info](https://www.npmjs.com/hosted-git-info)|v2.7.1|04/11/19|Ward Peeters |ISC|[CVE-2021-23362](https://github.com/advisories/GHSA-43f8-2h32-f4cj) (Moderate)|
 |[html-webpack-plugin](https://www.npmjs.com/html-webpack-plugin)|v3.2.0|05/31/19|Michal Piechowiak |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v2.3.0|05/28/19|Lipis |MIT|N/A|
 |[identity-obj-proxy](https://www.npmjs.com/identity-obj-proxy)|v3.0.0|11/05/18|Dustin Schau |MIT|N/A|
 |[imagemin](https://www.npmjs.com/imagemin)|v6.1.0|12/19/18|Sibiraj |MIT|N/A|
 |[imagemin-mozjpeg](https://www.npmjs.com/imagemin-mozjpeg)|v8.0.0|12/19/18|Sibiraj |MIT|N/A|
@@ -858,6 +864,7 @@ Full tech stack [here](/techstack.md)
 |[json2csv](https://www.npmjs.com/json2csv)|v3.11.5|02/13/18|Dustin Schau |MIT|N/A|
 |[katex](https://www.npmjs.com/katex)|v0.10.0|04/22/19|g7Dev |MIT|N/A|
 |[less-loader](https://www.npmjs.com/less-loader)|v4.1.0|02/01/19|Sibiraj |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v8.1.7|05/28/19|Lipis |MIT|N/A|
 |[lodash-es](https://www.npmjs.com/lodash-es)|v4.17.11|04/19/19|Kyle Mathews |MIT|[CVE-2019-10744](https://github.com/advisories/GHSA-jf85-cpcp-j695) (Critical)<br/>[CVE-2020-8203](https://github.com/advisories/GHSA-p6mc-m468-83gw) (High)<br/>[CVE-2021-23337](https://github.com/advisories/GHSA-35jh-r3h4-6jhm) (High)<br/>[CVE-2020-28500](https://github.com/advisories/GHSA-29mw-wpgm-hmr9) (Moderate)|
 |[lodash-webpack-plugin](https://www.npmjs.com/lodash-webpack-plugin)|v0.11.5|04/22/19|g7Dev |MIT|N/A|
 |[lodash.camelcase](https://www.npmjs.com/lodash.camelcase)|v4.3.0|01/30/19|Raúl R Pearson |MIT|N/A|
@@ -929,7 +936,7 @@ Full tech stack [here](/techstack.md)
 |[s3](https://www.npmjs.com/s3)|v4.4.0|11/15/17|Kyle Mathews |MIT|N/A|
 |[sanitize-html](https://www.npmjs.com/sanitize-html)|v1.20.1|10/24/18|stefanprobst |MIT|[CVE-2021-26540](https://github.com/advisories/GHSA-mjxr-4v3x-q3m4) (Moderate)<br/>[CVE-2021-26539](https://github.com/advisories/GHSA-rjqq-98f6-6j3r) (Moderate)|
 |[sass-loader](https://www.npmjs.com/sass-loader)|v7.1.0|06/17/18|Kyle Mathews |MIT|N/A|
-|[sharp](https://www.npmjs.com/sharp)|v0.22.1|05/03/19|Chuck |Apache-2.0|[CVE-2022-29256](https://github.com/advisories/GHSA-gp95-ppv5-3jc5) (Moderate)|
+|[sharp](https://www.npmjs.com/sharp)|v0.22.1|05/03/19|Chuck |Apache-2.0|[](https://github.com/advisories/GHSA-54xq-cgqr-rpm3) (High)<br/>[CVE-2022-29256](https://github.com/advisories/GHSA-gp95-ppv5-3jc5) (Moderate)|
 |[shelljs](https://www.npmjs.com/shelljs)|v0.7.8|11/15/17|Kyle Mathews |BSD-3-Clause|[CVE-2022-0144](https://github.com/advisories/GHSA-4rq4-32rv-6wp6) (High)<br/>[](https://github.com/advisories/GHSA-64g7-mvw6-v9qj) (Moderate)|
 |[sift](https://www.npmjs.com/sift)|v5.1.0|06/17/18|Kyle Mathews |MIT|N/A|
 |[slash](https://www.npmjs.com/slash)|v1.0.0|05/11/17|Kyle Mathews |MIT|N/A|
@@ -956,7 +963,7 @@ Full tech stack [here](/techstack.md)
 |[unified](https://www.npmjs.com/unified)|v6.2.0|10/17/17|Kyle Mathews |MIT|N/A|
 |[unist-util-visit](https://www.npmjs.com/unist-util-visit)|v1.4.0|06/17/18|Kyle Mathews |MIT|N/A|
 |[update-notifier](https://www.npmjs.com/update-notifier)|v2.5.0|12/10/17|Kunall Banerjee |BSD-2-Clause|N/A|
-|[urijs](https://www.npmjs.com/urijs)|v1.19.1|12/13/17|Pedr Browne |MIT|[CVE-2022-1243](https://github.com/advisories/GHSA-3vjf-82ff-p4r3) (High)<br/>[CVE-2021-27516](https://github.com/advisories/GHSA-p6j9-7xhc-rhwp) (High)<br/>[CVE-2022-0868](https://github.com/advisories/GHSA-8h2f-7jc4-7m3m) (Moderate)<br/>[CVE-2022-24723](https://github.com/advisories/GHSA-gmv4-r438-p67f) (Moderate)<br/>[CVE-2022-0613](https://github.com/advisories/GHSA-gcv8-gh4r-25x6) (Moderate)<br/>[CVE-2021-3647](https://github.com/advisories/GHSA-89gv-h8wf-cg8r) (Moderate)<br/>[CVE-2020-26291](https://github.com/advisories/GHSA-3329-pjwv-fjpg) (Moderate)<br/>[CVE-2022-1233](https://github.com/advisories/GHSA-g694-m8vq-gv9h) (Moderate)|
+|[urijs](https://www.npmjs.com/urijs)|v1.19.1|12/13/17|Pedr Browne |MIT|[CVE-2022-1243](https://github.com/advisories/GHSA-3vjf-82ff-p4r3) (High)<br/>[CVE-2021-27516](https://github.com/advisories/GHSA-p6j9-7xhc-rhwp) (High)<br/>[CVE-2022-1233](https://github.com/advisories/GHSA-g694-m8vq-gv9h) (Moderate)<br/>[CVE-2022-0868](https://github.com/advisories/GHSA-8h2f-7jc4-7m3m) (Moderate)<br/>[CVE-2022-24723](https://github.com/advisories/GHSA-gmv4-r438-p67f) (Moderate)<br/>[CVE-2022-0613](https://github.com/advisories/GHSA-gcv8-gh4r-25x6) (Moderate)<br/>[CVE-2020-26291](https://github.com/advisories/GHSA-3329-pjwv-fjpg) (Moderate)<br/>[CVE-2021-3647](https://github.com/advisories/GHSA-89gv-h8wf-cg8r) (Moderate)|
 |[url-loader](https://www.npmjs.com/url-loader)|v1.1.2|05/17/19|Ward Peeters |MIT|N/A|
 |[util.promisify](https://www.npmjs.com/util.promisify)|v1.0.0|04/24/19|Samuel Cha |MIT|N/A|
 |[uuid](https://www.npmjs.com/uuid)|v3.0.1|03/26/19|Jarmo Isotalo |MIT|N/A|
@@ -974,4 +981,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
